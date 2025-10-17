@@ -1,0 +1,151 @@
+/* --- Section Wrapper --- */
+.resource-section {
+  padding: 80px 8%;
+  background-color: #fafafa;
+  color: #222;
+  font-family: "Poppins", sans-serif;
+}
+
+.resource-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.resource-header h2 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.resource-header p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* --- Search Bar --- */
+.search-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box input {
+  width: 50%;
+  max-width: 500px;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+  outline: none;
+  border-color: #6b46c1;
+  box-shadow: 0 0 4px rgba(107, 70, 193, 0.3);
+}
+
+/* --- Grid Layout --- */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.resource-card {
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Image --- */
+.img-wrap {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.resource-card:hover img {
+  transform: scale(1.05);
+}
+
+/* --- Card Content --- */
+.card-content {
+  padding: 18px 20px 25px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tag {
+  display: inline-block;
+  background: #e9e3ff;
+  color: #6b46c1;
+  font-size: 0.8rem;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  width: fit-content;
+}
+
+.card-content h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #555;
+  flex: 1;
+}
+
+/* --- Read More Link --- */
+.read-more {
+  color: #6b46c1;
+  font-weight: 500;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.read-more:hover {
+  color: #4b25a0;
+}
+
+/* --- No Results --- */
+.no-results {
+  text-align: center;
+  color: #777;
+  grid-column: 1 / -1;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .search-box input {
+    width: 80%;
+  }
+
+  .resource-header h2 {
+    font-size: 1.8rem;
+  }
+}
