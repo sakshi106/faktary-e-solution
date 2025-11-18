@@ -1,1 +1,0 @@
-"# FAKTARY-E-SOLUTION" 
