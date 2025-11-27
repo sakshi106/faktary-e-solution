@@ -146,17 +146,19 @@ Faktary E-Solutions has been recognized for its excellence in innovation and ser
         <div className="team-card-inner">
           {/* Front Side */}
           <div className="team-card-front">
-            <img src="/images/boss1.jpg" alt="Founder 1" />
-            <h3>John Doe</h3>
-            <p>Founder & CEO</p>
+            {/* <img src="/images/boss1.jpg" alt="Founder 1" /> */}
+            <h3>Preetham Jain</h3>
+            <p>Director at Faktary E-Solutions Private Limited</p>
           </div>
 
           {/* Back Side */}
           <div className="team-card-back">
-            <h3>John Doe</h3>
+            <h3>Preetham Jain</h3>
             <p>
-              A visionary leader with 10+ years in digital transformation. John
-              has led more than 100 successful web and app projects worldwide.
+            Preetham Jain serves as a Director at Faktary E-Solutions Private Limited and brings over 4.5 years of experience in the information technology industry. With a strong command of modern digital solutions and emerging technologies, he plays a crucial role in defining the company’s strategic direction and technical excellence.
+Preetham oversees key areas including product development, technological innovation, operational optimisation, and client-focused solution delivery. His analytical approach, clear leadership, and commitment to high standards contribute significantly to the organisation’s growth and performance.
+He is dedicated to building scalable, efficient, and future-ready IT solutions that support the company’s mission of delivering dependable and high-value services to its clients.
+Preetham also focuses on strengthening internal processes, enhancing team capabilities, and ensuring that the organisation maintains a competitive edge in a rapidly evolving digital landscape. His forward-thinking mindset continues to guide Faktary E-Solutions towards long-term sustainability and innovation.
             </p>
             <p className="exp">Expertise: Strategy, UX, Product Engineering</p>
           </div>
@@ -168,18 +170,18 @@ Faktary E-Solutions has been recognized for its excellence in innovation and ser
         <div className="team-card-inner">
           {/* Front Side */}
           <div className="team-card-front">
-            <img src="/images/boss1.jpg" alt="Founder 2" />
-            <h3>Jane Smith</h3>
-            <p>Co-Founder & CTO</p>
+            {/* <img src="/images/boss1.jpg" alt="Founder 2" /> */}
+            <h3>Manveer Jain</h3>
+            <p> Director at Faktary E-Solutions Private Limited</p>
           </div>
 
           {/* Back Side */}
           <div className="team-card-back">
-            <h3>Jane Smith</h3>
+            <h3>Manveer Jain</h3>
             <p>
-              Tech-driven innovator passionate about AI and scalable
-              architectures. She ensures every project meets world-class
-              performance and quality standards.
+             Manveer Jain serves as a Director at Faktary E-Solutions Private Limited, contributing over 3 years of experience in the IT sector. His expertise spans project management, digital solution implementation, and operational coordination across multiple client engagements.
+He plays an important role in ensuring seamless project execution, maintaining service quality, and strengthening long-term client relationships. With a solutions-driven mindset and disciplined work approach, Manveer supports the organisation’s commitment to efficiency, innovation, and continuous improvement.
+In addition to his operational responsibilities, Manveer actively works on refining delivery methodologies, improving workflow consistency, and enabling teams to meet evolving client expectations. His dedication to organisational excellence helps maintain Faktary E-Solutions’ reputation as a trusted and performance-focused technology partner.
             </p>
             <p className="exp">Expertise: Cloud, AI, Scalable Systems</p>
           </div>

@@ -67,7 +67,7 @@ const Footer = () => {
           <h3>Our Services</h3>
           <ul>
             <li>
-              <Link to="/webdev" onClick={handleNavigation("/webdev")}>
+              <Link to="/websitemobile" onClick={handleNavigation("/websitemobile")}>
                 Web & Mobile Development
               </Link>
             </li>

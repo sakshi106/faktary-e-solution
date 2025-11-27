@@ -879,3 +879,61 @@
     padding: 8px 16px;
   }
 }
+
+/* =============================== */
+/* ✅ MOBILE HEADING FIX – RESOURCES */
+/* =============================== */
+@media (max-width: 480px) {
+
+  /* Page top section spacing */
+  .resources-hero,
+  .resources-header {
+    padding-top: 90px;   /* navbar se gap */
+    padding-bottom: 20px;
+  }
+
+  /* Main heading */
+  .resources-title,
+  .resources-header h1 {
+    font-size: 22px;
+    line-height: 1.3;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  /* Subtitle text */
+  .resources-subtitle,
+  .resources-header p {
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 16px;
+    opacity: 0.85;
+  }
+
+  /* Search bar */
+  .resources-search,
+  .search-bar {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 16px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+    padding: 10px 14px;
+  }
+
+  /* Filter buttons */
+  .resource-filters,
+  .filter-row {
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .resource-filters button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}

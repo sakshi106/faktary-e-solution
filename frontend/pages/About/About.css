@@ -801,8 +801,8 @@ width: 100%;}
 /* 🔹 Each Card */
 .team-card {
   background: transparent;
-  width: 260px;
-  height: 340px;
+  width: 700px;
+  height: 500px;
   perspective: 1000px;
 }
 
@@ -895,3 +895,47 @@ width: 100%;}
   }
 }
 
+/* ================================ */
+/* ✅ MOBILE FIX – NO LAYOUT CHANGE */
+/* ================================ */
+@media (max-width: 768px) {
+
+  .team-card-row {
+    gap: 2rem;               /* reduce extra gaps */
+  }
+
+  .team-card {
+    width: 92vw;             /* screen ke hisaab se */
+    max-width: 360px;
+    height: auto;            /* 🔑 fixed height remove */
+    perspective: none;       /* hover flip not needed */
+  }
+
+  .team-card-inner {
+    transform: none !important;
+  }
+
+  .team-card-front,
+  .team-card-back {
+    position: relative;
+    height: auto;            /* content ke hisaab se */
+    min-height: unset;
+    backface-visibility: visible;
+    transform: none;
+  }
+
+  /* ✅ Back text scroll ke bajay expand ho */
+  .team-card-back {
+    padding: 1.2rem;
+  }
+
+  .team-card-back p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* 🔥 Mobile pe flip disable (UX better) */
+  .team-card:hover .team-card-inner {
+    transform: none;
+  }
+}
